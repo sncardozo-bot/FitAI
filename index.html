@@ -1183,7 +1183,7 @@ Please provide:
   }
 
   try{
-    const res=await fetch('https://fitai.sncardozo.workers.dev/chat',{method:'POST',headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
+    const res=await fetch('https://fitai.sncardozo.workers.dev',{method:'POST',headers:{'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
       body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1200,messages:[{role:'user',content}]})});
     const data=await res.json();
     textEl.textContent=data.content?.[0]?.text||'Could not analyse.';
