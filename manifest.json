@@ -1,0 +1,16 @@
+{
+  "name": "FitAI",
+  "short_name": "FitAI",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "description": "AI-powered fitness tracker and coach",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
